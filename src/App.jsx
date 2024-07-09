@@ -2,17 +2,15 @@ import React from 'react'
 import { 
   Application, 
   Business,  
-  Clients, 
   CTA, 
   Footer, 
   Hero, 
   Navbar, 
-  Products,
   Stats, 
   Testimonials 
 } from './components'
 import styles from './style'
-
+// Signal Processing Experties
 const App = () => {
   return (
     <div className='bg-primary w-full overflow-hidden'>
@@ -30,10 +28,7 @@ const App = () => {
         <div className={`${styles.boxWidth}`}>
           <Stats/>
           <Business/>
-          <Application/>
-          <Products/>
           <Testimonials/>
-          <Clients/>
           <CTA/>
           <Footer/>     
         </div>

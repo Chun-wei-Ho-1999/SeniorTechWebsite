@@ -16,7 +16,7 @@ import twitter from "./twitter.svg";
 import people01 from "./people01.png";
 import people02 from "./people02.png";
 import people03 from "./people03.png";
-import biden from "./biden.jpg"
+import intro from "./intro.jpg"
 import dfree from "./dfree.png"
 
 export {
@@ -38,6 +38,6 @@ export {
   people01,
   people02,
   people03,
-  biden,
+  intro,
   dfree
 };
