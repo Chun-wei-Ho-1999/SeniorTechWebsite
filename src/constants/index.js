@@ -16,19 +16,19 @@ import {
 
 export const navLinks = [
   {
-    id: "/SeniorTechWebsite/#home",
+    id: "/",
     title: "Home",
   },
+  // {
+  //   id: "/#features",
+  //   title: "Features",
+  // },
+  // {
+  //   id: "/#clients",
+  //   title: "Clients",
+  // },
   {
-    id: "/SeniorTechWebsite/#features",
-    title: "Features",
-  },
-  {
-    id: "/SeniorTechWebsite/#clients",
-    title: "Clients",
-  },
-  {
-    id: "/SeniorTechWebsite/OurStories",
+    id: "/OurStories",
     title: "Our Stories"
   }
 ];

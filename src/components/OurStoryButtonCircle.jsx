@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from '../style'
 import { arrowUp } from '../assets'
+import { Link } from "react-router-dom";
 
 import {useNavigate} from 'react-router-dom';
 
@@ -10,7 +11,7 @@ const OurStoryButtonCircle = () => {
     navigate('/SeniorTechWebsite/OurStories')
   };
   return (
-    <a href="/SeniorTechWebsite/OurStories">
+    <Link to="/OurStories">
     <div className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-green p-[2px] cursor-pointer`}>
       <div className={`${styles.flexCenter} flex-col bg-primary w-[100%] h-[100%] rounded-full`}>
         <div className={`${styles.flexStart} flex-row`}>
@@ -28,7 +29,7 @@ const OurStoryButtonCircle = () => {
         </p>
       </div>
     </div>
-    </a>
+    </Link>
   )
 }
 

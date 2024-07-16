@@ -2,17 +2,18 @@ import React from 'react'
 import styles from '../style'
 import { logo } from '../assets'
 import { footerLinks, socialMedia } from '../constants'
+import { Link } from "react-router-dom";
 
 const Footer = () => {
   return (
     <section className={`${styles.flexCenter} ${styles.paddingY} flex-col`}>
       <div className={`${styles.flexStart} md:flex-row flex-col mb-8 w-full`}>
         <div className='flex-1 flex flex-col justify-start mr-10'>
-          <img
+          <Link to="/"><img
             src={logo}
             alt='logo'
             className='w-[266px] h-[172px] object-contain'
-          />
+          /></Link>
           <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>
             A new way to make senior caring easy, confortable and reliable.         
           </p>

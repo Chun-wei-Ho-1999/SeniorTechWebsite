@@ -5,17 +5,17 @@ import OurStoriesPage from './OurStoriesPage'
 import './index.css'
 
 import {
-  createBrowserRouter,
+  createHashRouter,
   RouterProvider,
 } from "react-router-dom";
 
-const router = createBrowserRouter([
+const router = createHashRouter([
   {
-    path: "/SeniorTechWebsite/OurStories",
+    path: "/OurStories",
     element: <OurStoriesPage/>,
   },
   {
-    path: "/SeniorTechWebsite",
+    path: "/",
     element: <App />,
   },
 ]);
