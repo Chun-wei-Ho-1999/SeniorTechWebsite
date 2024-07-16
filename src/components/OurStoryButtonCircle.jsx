@@ -1,16 +1,21 @@
 import React from 'react'
 import styles from '../style'
 import { arrowUp } from '../assets'
-import { getStartOnClick } from './Button'
 
-const GetStarted = () => {
+import {useNavigate} from 'react-router-dom';
+
+const OurStoryButtonCircle = () => {
+  const navigate = useNavigate()
+  const getStartOnClick = () => {
+    navigate('/SeniorTechWebsite/OurStories')
+  };
   return (
-    <div className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-green-gradient p-[2px] cursor-pointer`}
-    onClick={getStartOnClick}>
+    <a href="/SeniorTechWebsite/OurStories">
+    <div className={`${styles.flexCenter} w-[140px] h-[140px] rounded-full bg-green p-[2px] cursor-pointer`}>
       <div className={`${styles.flexCenter} flex-col bg-primary w-[100%] h-[100%] rounded-full`}>
         <div className={`${styles.flexStart} flex-row`}>
           <p className='font-poppins font-medium text-[18px] leading-[23px] mr-2'>
-            <span className='text-gradient'>Get</span>
+            <span className='text-black'>Our</span>
           </p>
           <img
             src={arrowUp}
@@ -19,11 +24,12 @@ const GetStarted = () => {
           />
         </div>
         <p className='font-poppins font-medium text-[18px] leading-[23px]'>
-          <span className='text-gradient'>Started</span>
+          <span className='text-black'>Stories</span>
         </p>
       </div>
     </div>
+    </a>
   )
 }
 
-export default GetStarted
+export default OurStoryButtonCircle

@@ -9,26 +9,28 @@ import {
   twitter,  
   send, 
   shield, 
-  star
+  star,
+  sophie,
+  chun_wei_story
 } from "../assets";
 
 export const navLinks = [
   {
-    id: "home",
+    id: "/SeniorTechWebsite/#home",
     title: "Home",
   },
   {
-    id: "features",
+    id: "/SeniorTechWebsite/#features",
     title: "Features",
   },
   {
-    id: "product",
-    title: "Product",
-  },
-  {
-    id: "clients",
+    id: "/SeniorTechWebsite/#clients",
     title: "Clients",
   },
+  {
+    id: "/SeniorTechWebsite/OurStories",
+    title: "Our Stories"
+  }
 ];
 
 export const features = [
@@ -202,5 +204,22 @@ export const clients = [
   {
     id: "client-1",
     logo: dfree,
+  }
+];
+
+export const stories = [
+  {
+    id: "Sophie",
+    name: "Sophie Ting",
+    img: sophie,
+    position: "Founder & CEO of Senior Tech AI",
+    content: "When I owned and operated Southern Haven Assisted Living, I witnessed firsthand the suffering of the elderly and the hardships of their caregivers. I have always sought solutions to improve the quality of life for my residents and reduce the labor burden on my staff. With my background in Electrical and Computer Engineering, I naturally turned to technology as a primary solution to address various challenges. I found that incontinence was the most significant issue among all. I decided to sell the business to contribute to the lives of seniors through innovation worldwide. I envision a future where seniors are free from diapers, alleviating the burden of changing and cleaning them. This improvement will encourage more frequent visits from their family members. Among my own prototypes and other incontinence products, I discovered the DFree ultrasound sensor and believe it is the best method in the incontinence industry. I aim to bring this technology to the senior care industry, ensuring it is gentle on seniors' delicate skin. I invited Chun-Wei to join the team, whose expertise in signal processing and AI will overcome the technical obstacles and bring my design to completion.",
+  },
+  {
+    id: "Chun-wei",
+    name: "Chun-wei Ho",
+    img: chun_wei_story,
+    position: "Co-Founder of Senior Tech AI",
+    content: "Pending my story",
   }
 ];

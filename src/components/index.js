@@ -1,4 +1,3 @@
-import Application from './Application'
 import Business from './Business'
 import CTA from './CTA'
 import Feedback from './Feedback'
@@ -7,9 +6,9 @@ import Hero from './Hero'
 import Navbar from './Navbar'
 import Stats from './Stats'
 import Testimonials from './Testimonials'
+import OurStories from './OurStories'
 
 export {
-    Application,
     Business,
     CTA,
     Feedback,
@@ -17,5 +16,6 @@ export {
     Hero,
     Navbar,
     Stats,
-    Testimonials
+    Testimonials,
+    OurStories,
 }

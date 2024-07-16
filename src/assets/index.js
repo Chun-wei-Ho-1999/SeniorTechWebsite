@@ -1,5 +1,4 @@
-import app from "./app.jpg"
-import logo from "./logo.jpg";
+import logo from "./logo.png";
 import quotes from "./quotes.svg";
 import send from "./Send.svg";
 import shield from "./Shield.svg";
@@ -18,9 +17,11 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import intro from "./intro.jpg"
 import dfree from "./dfree.png"
+import sophie from "./sophie.jpeg"
+import chun_wei_story from "./chun-wei-story.jpg"
+
 
 export {
-  app,
   logo,
   quotes,
   send,
@@ -39,5 +40,7 @@ export {
   people02,
   people03,
   intro,
-  dfree
+  dfree,
+  sophie,
+  chun_wei_story,
 };
