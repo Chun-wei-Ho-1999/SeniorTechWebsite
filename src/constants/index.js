@@ -19,17 +19,17 @@ export const navLinks = [
     id: "/",
     title: "Home",
   },
-  // {
-  //   id: "/#features",
-  //   title: "Features",
-  // },
-  // {
-  //   id: "/#clients",
-  //   title: "Clients",
-  // },
   {
     id: "/OurStories",
     title: "Our Stories"
+  },
+  {
+    id: "/AboutUs",
+    title: "About Us"
+  },
+  {
+    id: "/ContactUs",
+    title: "Contact Us"
   }
 ];
 
@@ -94,84 +94,79 @@ export const products = [
 ]
 
 export const stats = [
-  // {
-  //   id: "stats-1",
-  //   title: "User Active",
-  //   value: "0",
-  // },
-  // {
-  //   id: "stats-2",
-  //   title: "Trusted by Company",
-  //   value: "0",
-  // },
   {
-    id: "stats-3",
-    title: "Potential Market Size",
-    value: "$30 M+",
+    id: "stats-1",
+    title: "Potential Users",
+    value: "300 M+",
   },
+  {
+    id: "stats-2",
+    title: "Incontinent Market Size",
+    value: "$12.6 B+",
+  }
 ];
 
 export const footerLinks = [
   {
     title: "Useful Links",
     links: [
-      {
-        name: "Content",
-        link: "https://www.hoobank.com/content/",
-      },
-      {
-        name: "How it Works",
-        link: "https://www.hoobank.com/how-it-works/",
-      },
-      {
-        name: "Create",
-        link: "https://www.hoobank.com/create/",
-      },
-      {
-        name: "Explore",
-        link: "https://www.hoobank.com/explore/",
-      },
-      {
-        name: "Terms & Services",
-        link: "https://www.hoobank.com/terms-and-services/",
-      },
+      // {
+      //   name: "Content",
+      //   link: "https://www.hoobank.com/content/",
+      // },
+      // {
+      //   name: "How it Works",
+      //   link: "https://www.hoobank.com/how-it-works/",
+      // },
+      // {
+      //   name: "Create",
+      //   link: "https://www.hoobank.com/create/",
+      // },
+      // {
+      //   name: "Explore",
+      //   link: "https://www.hoobank.com/explore/",
+      // },
+      // {
+      //   name: "Terms & Services",
+      //   link: "https://www.hoobank.com/terms-and-services/",
+      // },
     ],
   },
   {
     title: "Community",
     links: [
-      {
-        name: "Help Center",
-        link: "https://www.hoobank.com/help-center/",
-      },
-      {
-        name: "Partners",
-        link: "https://www.hoobank.com/partners/",
-      },
-      {
-        name: "Suggestions",
-        link: "https://www.hoobank.com/suggestions/",
-      },
-      {
-        name: "Blog",
-        link: "https://www.hoobank.com/blog/",
-      },
-      {
-        name: "Newsletters",
-        link: "https://www.hoobank.com/newsletters/",
-      },
+      // {
+      //   name: "Help Center",
+      //   link: "https://www.hoobank.com/help-center/",
+      // },
+      // {
+      //   name: "Partners",
+      //   link: "https://www.hoobank.com/partners/",
+      // },
+      // {
+      //   name: "Suggestions",
+      //   link: "https://www.hoobank.com/suggestions/",
+      // },
+      // {
+      //   name: "Blog",
+      //   link: "https://www.hoobank.com/blog/",
+      // },
+      // {
+      //   name: "Newsletters",
+      //   link: "https://www.hoobank.com/newsletters/",
+      // },
     ],
   },
   {
     title: "Partner",
     links: [
-      {
-        name: "Our Partner",
-        link: "https://www.hoobank.com/our-partner/",
-      },
+      // {
+      //   name: "Our Partner",
+      //   link: "https://www.hoobank.com/our-partner/",
+      // },
       {
         name: "Become a Partner",
-        link: "https://www.hoobank.com/become-a-partner/",
+        link: "/ContactUs",
       },
     ],
   },

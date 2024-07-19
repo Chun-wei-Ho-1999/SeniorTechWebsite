@@ -30,7 +30,7 @@ const Footer = () => {
                     key={item.name} 
                     className={`font-poppins font-normal text-[16px] leading-[24px] text-current hover:text-secondary cursor-pointer ${index !== link.links.length - 1 ? 'mb-4' : 'mb-0'}`}
                   >
-                    {item.name}
+                    <Link to={item.link}>{item.name}</Link>
                   </li>
                 ))}
               </ul>

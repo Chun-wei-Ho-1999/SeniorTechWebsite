@@ -29,11 +29,9 @@ const Business = () => {
       <div className={layout.sectionInfo}>
         <h2 className={styles.heading2}>You take care of family, <br className='sm:block hidden'/>we'll handle the tools.</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-         With the right tool,
-         you can enhance your life with AI, 
-         gaining additional comfort and convenience for your family.
+         With the right tool, you can enhance the life of your loved one with AI, gaining additional comfort and convenience for your family member while also easing the burden on you as caregivers.
         </p>
-        <Button styles='mt-10'/>
+        <Button styles='mt-10' title='About Us' link='/AboutUs'/>
       </div>
       <div className={`${layout.sectionImg} flex-col`}>
         {features.map((feature, index) => (

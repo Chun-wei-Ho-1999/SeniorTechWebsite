@@ -17,7 +17,7 @@ import people02 from "./people02.png";
 import people03 from "./people03.png";
 import intro from "./intro.jpg"
 import dfree from "./dfree.png"
-import sophie from "./sophie.jpeg"
+import sophie from "./sophie.jpg"
 import chun_wei_story from "./chun-wei-story.jpg"
 
 

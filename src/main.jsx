@@ -1,6 +1,8 @@
 import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App'
+import AboutUsPage from './AboutUsPage'
+import ContactUsPage from './ContactUsPage'
 import OurStoriesPage from './OurStoriesPage'
 import './index.css'
 
@@ -13,6 +15,14 @@ const router = createHashRouter([
   {
     path: "/OurStories",
     element: <OurStoriesPage/>,
+  },
+  {
+    path: "/AboutUs",
+    element: <AboutUsPage/>,
+  },
+  {
+    path: "/ContactUs",
+    element: <ContactUsPage/>,
   },
   {
     path: "/",
