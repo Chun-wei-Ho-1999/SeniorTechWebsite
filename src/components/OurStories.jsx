@@ -39,8 +39,8 @@ const Story = ({index, name, content, img, position}) => {
     )
     if (index % 2 == 0) {
         const move_right = {
-            marginLeft: `${scrollY / 10}px`,
-            marginRight: `${-scrollY / 10}px`,
+            marginLeft: `${scrollY / 30}px`,
+            marginRight: `${-scrollY / 30}px`,
         };
         return (
             <span className={`flex md:flex-row flex-col`} style={move_right}>
@@ -49,8 +49,8 @@ const Story = ({index, name, content, img, position}) => {
         )}
     else {
         const move_left = {
-            marginLeft: `${-scrollY / 10}px`,
-            marginRight: `${scrollY / 10}px`,
+            marginLeft: `${-scrollY / 30}px`,
+            marginRight: `${scrollY / 30}px`,
         };
         return (
         <span className={`flex md:flex-row flex-col`} style={move_left}>

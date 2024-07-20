@@ -15,7 +15,7 @@ const Footer = () => {
             className='w-[266px] h-[172px] object-contain'
           /></Link>
           <p className={`${styles.paragraph} mt-4 max-w-[310px]`}>
-            A new way to make senior caring easy, confortable and reliable.         
+            Let's join forces to embed our advanced AI software into your hardware. This partnership will unlock vast new market potential.      
           </p>
         </div>
         <div className='flex-[1.5] w-full flex flex-row justify-between flex-wrap md:mt-0 mt-10'>

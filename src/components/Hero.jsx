@@ -28,7 +28,7 @@ const Hero = () => {
           Senior Technology
         </h1>
         <p className={`${styles.paragraph} max-w-[750px] mt-5`}>
-        Our team of experts employs a specialized methodology to identify the most effective technology for caring for your body, delivering superior comfort and added convenience
+        Our expertise in signal processing, utilizing a specialized AI methodology, is ready to elevate seniors' lives to a new level of comfort.
         </p>
       </div>
       <MainPageSlides/>

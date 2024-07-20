@@ -27,9 +27,9 @@ const Business = () => {
   return (
     <section id='features' className={layout.section}>
       <div className={layout.sectionInfo}>
-        <h2 className={styles.heading2}>You take care of family, <br className='sm:block hidden'/>we'll handle the tools.</h2>
+        <h2 className={styles.heading2}>Let our AI technology ease the burden on caregivers</h2>
         <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
-         With the right tool, you can enhance the life of your loved one with AI, gaining additional comfort and convenience for your family member while also easing the burden on you as caregivers.
+         Through our collaboration, we can enhance seniors' lives with AI, providing them with comfort and convenience using DFree, and also easing the workload on caregivers.
         </p>
         <Button styles='mt-10' title='About Us' link='/AboutUs'/>
       </div>
