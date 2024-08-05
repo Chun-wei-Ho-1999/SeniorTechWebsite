@@ -1,5 +1,4 @@
 import styles from '../style'
-import { people03, intro } from '../assets'
 import OurStoryButtonCircle from './OurStoryButtonCircle'
 import MainPageSlides from './MainPageSlides'
 

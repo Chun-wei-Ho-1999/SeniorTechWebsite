@@ -1,7 +1,6 @@
-import { 
-  people01, 
+import {  
   people02, 
-  people03,
+  kelly,
   dfree, 
   facebook, 
   instagram, 
@@ -11,7 +10,8 @@ import {
   shield, 
   star,
   sophie,
-  chun_wei_story
+  chun_wei_story,
+  marty
 } from "../assets";
 
 export const navLinks = [
@@ -61,26 +61,26 @@ export const feedback = [
   {
     id: "feedback-1",
     content:
-      "This AI technology is exceptional! The innovation and effectiveness it brings to senior people are truly impressive. The seamless integration and user-friendly interface make it a standout tool in its category.",
-    name: "Chat-GPT",
-    title: "Founder & Leader",
-    img: people01,
+      "",
+    name: "",
+    title: "",
+    img: marty,
   },
   {
     id: "feedback-2",
     content:
-      "The performance improvements and accuracy in the bladder sensor have significantly boosted our productivity and provided a superior user experience. The developers have done an incredible job, and the regular updates ensure it stays ahead of the curve.",
-    name: "Chat-GPT",
-    title: "Founder & Leader",
+      "",
+    name: "",
+    title: "",
     img: people02,
   },
   {
     id: "feedback-3",
     content:
-      "Highly recommend this app to anyone looking for a cutting-edge AI solution. Kudos to the team for their outstanding work!",
-    name: "Chat-GPT",
-    title: "Founder & Leader",
-    img: people03,
+      "",
+    name: "",
+    title: "",
+    img: kelly,
   },
 ];
 
@@ -97,7 +97,7 @@ export const stats = [
   {
     id: "stats-1",
     title: "Potential Users",
-    value: "300 M+",
+    value: "500 M+",
   },
   {
     id: "stats-2",
