@@ -37,23 +37,23 @@ export const features = [
   {
     id: "feature-1",
     icon: star,
-    title: "Benefits",
+    title: "Patient-Centered Value",
     content:
-      "The best technology for senior people and people who take care of them",
+      "Driving adoption through comfort, dignity, and compliance.",
   },
   {
     id: "feature-2",
     icon: shield,
-    title: "100% Secured",
+    title: "Trusted & Compliant",
     content:
-      "We take proactive steps make sure your information and transactions are secure.",
+      "Built to medical standards, protecting patients and collaborators.",
   },
   {
     id: "feature-3",
     icon: send,
-    title: "Advanced Technology",
+    title: "AI-Driven Advantage",
     content:
-      "We keep track of the stat-of-the-art technology and assist you with the best tools.",
+      "AI-powered monitoring that sets you ahead of competitors.",
   },
 ];
 
@@ -62,7 +62,7 @@ export const feedback = [
     id: "feedback-1",
     content:
       "",
-    name: "",
+    name: "Martha Smith",
     title: "",
     img: marty,
   },
@@ -78,7 +78,7 @@ export const feedback = [
     id: "feedback-3",
     content:
       "",
-    name: "",
+    name: "Kelly Johnson",
     title: "",
     img: kelly,
   },
